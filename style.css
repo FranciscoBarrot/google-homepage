@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.container{
+}
+
+
+.nav{
+    display:flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: flex-end;
+    white-space:nowrap;
+    min-width: 200px;
+}
+
+.gmail-images{
+    flex: 1 0 auto; /*Que re carajos, googlear mejor xD*/
+    padding-right: 15px;
+}
+
+.img{
+
+}
+
+.search-container{
+    width: 580px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: auto;
+}
